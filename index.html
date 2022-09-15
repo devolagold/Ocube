@@ -8,31 +8,39 @@
     <title>Ocube Landing Page</title>
 </head>
 <body class="font-Inter">
-    <!-- NavBar -->
-    <nav class="relative container mx-auto p-6">
-        <div class="flex items-center jutify-between">
-            <!-- Logo -->
-            <div class="pt-2">
-                <a href="#">
-                    <img src="/images/Logo.png" alt="Logo" width="15%">
-                </a>
-            </div>
+    <!-- Navbar -->
+    <nav class="relative mx-12 p-6 mt-2">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+              <a href="#">
+                <img src="images/Logo.svg" alt="Logo"/>
+              </a>
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden space-x-7 md:flex text-Grey font-light text-sm">
+            <a href="#" class="text-Dark font-medium hover:text-Green">Home</a>
+            <a href="#" class="hover:text-Dark">Courses</a>
+            <a href="#" class="hover:text-Dark">Resources</a>
+            <a href="#" class="hover:text-Dark">About Us</a>
+            <a href="#" class="hover:text-Dark">Contact us</a>
+          </div>
 
-            <!-- Navigation -->
-            <div class="hidden md:flex space-x-8 font-light text-small">
-                <a href="#" class="font-medium text-dark">Home</a>
-                <a href="#" class="text-Grey">Courses</a>
-                <a href="#" class="text-Grey">Resources</a>
-                <a href="#" class="text-Grey">About us</a>
-                <a href="#" class="text-Grey">Contact us</a>
-            </div>
 
-            <!-- CTA in Navigation -->
-            <!-- <div class="flex space-x-8">
-                <button>Login</button>
-                <button>Sign up</button>
-            </div> -->
+          <!-- CTA/Button -->
+          <div class="hidden md:flex space-x-6 font-regular">
+            <a href="#" class="text-Green px-5 py-2 border-2 border-Green rounded-md hover:opacity-80">Log in</a>
+            <a href="#" class="bg-Green text-white px-5 py-3 rounded-md hover:opacity-80">Sign up</a>
+          </div>
         </div>
-    </nav>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="Hero-Section">
+        <div class="flex">
+
+        </div>
+      </section>
 </body>
 </html>
