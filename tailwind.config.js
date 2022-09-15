@@ -20,6 +20,10 @@ module.exports = {
       fontFamily: {
         Inter: ["Inter"]
       },
+
+      fontSize: {
+        header: '3.4375rem'
+      }
     },
   },
   plugins: [],
