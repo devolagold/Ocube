@@ -625,6 +625,16 @@ video {
   margin-right: 1.5rem;
 }
 
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.mx-24{
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
 .mt-2{
   margin-top: 0.5rem;
 }
@@ -639,6 +649,10 @@ video {
 
 .mt-16{
   margin-top: 4rem;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
 }
 
 .block{
@@ -960,6 +974,16 @@ video {
   line-height: 1.5rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-light{
   font-weight: 300;
 }
@@ -1069,6 +1093,15 @@ body,html{
     margin-bottom: 3rem;
   }
 
+  .md\:mx-44{
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+
+  .md\:mt-16{
+    margin-top: 4rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -1141,6 +1174,10 @@ body,html{
 
   .md\:p-6{
     padding: 1.5rem;
+  }
+
+  .md\:p-3{
+    padding: 0.75rem;
   }
 
   .md\:py-0{
