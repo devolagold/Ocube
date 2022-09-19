@@ -655,6 +655,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1216,5 +1220,10 @@ body,html{
   .md\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-green-50{
+    --tw-text-opacity: 1;
+    color: rgb(240 253 244 / var(--tw-text-opacity));
   }
 }
