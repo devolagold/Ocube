@@ -22,7 +22,9 @@ module.exports = {
       },
 
       fontSize: {
-        header: '3.4375rem'
+        header: '3.4375rem',
+        header2: '2rem',
+        border: '1.5px'
       }
     },
   },
