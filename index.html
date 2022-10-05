@@ -36,7 +36,7 @@
           </div>
 
             <!-- Hamburger -->
-          <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+          <button id="menu-btn" class="block hamburger mt-3 md:hidden focus:outline-none">
           <span class="hamburger-top"></span>
           <span class="hamburger-bottom"></span>
         </button>
@@ -45,7 +45,7 @@
 
         <!-- Mobile Menu -->
       <div class="md:hidden">
-        <div id="menu" class="absolute flex-col items-center w-screen h-screen hidden self-end py-8 space-y-6 bg-white sm:w-auto sm:self-center">
+        <div id="menu" class="absolute flex-col items-center w-screen h-screen hidden self-end py-8 space-y-12 bg-white sm:w-auto sm:self-center">
           <a href="#">Home</a>
           <a href="#">Courses</a>
           <a href="#">Resources</a>
@@ -81,12 +81,33 @@
       <!-- Motivators Section -->
       <section id="Motivators" class="py-6">
         <h1 class="text-center md:text-xl font-medium">Platforms that motivates us</h1>
-        <div class="flex flex-col space-y-6 w-100 mt-3 items-center justify-center md:mx-12 p-6 md:space-x-32 md:flex-row">
+        <div class="flex flex-col mt-3 items-center justify-center md:mx-12 p-3 md:space-x-28 md:flex-row">
+            <div class="flex space-x-28">
                 <img src="images/coursera.svg" alt="coursera-logo">
                 <img src="images/udemy.svg" alt="udemy-logo">
                 <img src="images/masterclass.svg" alt="masterclass-logo">
+            </div>
+
+            <!-- <div class="flex space-x-28">
                 <img src="images/skillshare.svg" alt="skillshare-logo">
                 <img src="images/Udacity.svg" alt="udacity-logo">
+            </div> -->
+
+            <div class="flex space-x-28" style="overflow: hiden;">
+                <img src="images/skillshare.svg" alt="skillshare-logo" style="max-width: 100%; height: auto;">
+                <img src="images/Udacity.svg" alt="udacity-logo" style="max-width: 100%; height: auto;">
+            </div>
+
+            <!-- <div class="w-1/2 flex space-x-32">
+                <img src="images/coursera.svg" alt="coursera-logo">
+                <img src="images/udemy.svg" alt="udemy-logo">
+                <img src="images/masterclass.svg" alt="masterclass-logo">
+            </div>
+            
+            <div class="w-1/2 flex space-x-32">
+                <img src="images/skillshare.svg" alt="skillshare-logo">
+                <img src="images/Udacity.svg" alt="udacity-logo">
+            </div> -->
         </div>
       </section>
 
@@ -113,8 +134,6 @@
     </div>
   </section>
 
-  <!-- flex justify-center space-x-12 font-light mx-32 p-6 mt-12 -->
-
       <!-- Experience -->
       <section id="Experience-section" class="py-11">
           <h1 class="mx-3 text-3xl font-extrabold leading-tight text-center md:text-header">
@@ -122,30 +141,30 @@
             greatest experiences.
             </h1>
 
-            <div class="flex flex-col px-3 space-y-4 md:space-x-12 p-2 justify-center md:mx-28 md:p-6 my-3 md:flex-row md-mx-0 md:space-y-0">
-                <div class="md:w-1/2 flex md:space-x-12 md:my-0">
-                    <div class="w-1/2 md:w-1/2 m-2 flex flex-col items-center justify-center p-6 bg-Green text-white">
+            <div class="w-100 flex flex-col px-3 space-y-4 md:space-x-12 p-2 justify-center md:mx-28 md:p-6 my-3 md:flex-row md-mx-0 md:space-y-0">
+                <div class="md:w-1/2 flex space-x-5 md:space-x-12">
+                    <div class="w-1/2 md:w-1/2 flex flex-col items-center justify-center p-6 bg-Green text-white">
                         <img class="p-6" src="images/medal.svg" alt="medal-icon">
                         <p class="text-lg text-center p-3">Interactive</p>
                     </div>
     
-                    <div class="w-1/2 md:w-1/2 m-2 flex flex-col items-center justify-center p-6 bg-Green text-white">
+                    <div class="w-1/2 md:w-1/2 flex flex-col items-center justify-center p-0 bg-Green text-white">
                         <img class="p-6" src="images/crown.svg" alt="crown-icon">
-                        <p class="text-lg text-center p-3">Satisfaction</p>
+                        <p class="text-lg text-center">Satisfaction</p>
                     </div>
                 </div>
-                
-                <div class="md:w-1/2 flex md:space-x-12">
-                    <div class="w-1/2 md:w-1/2 m-2 flex flex-col items-center justify-center p-6 bg-Green text-white">
+
+                <div class="md:w-1/2 flex space-x-5 md:space-x-12">
+                    <div class="w-1/2 md:w-1/2 flex flex-col items-center justify-center p-6 bg-Green text-white">
                         <img class="p-6" src="images/star.svg" alt="star-icon">
-                        <p class="text-lg text-center p-4">Mentoring</p>
+                        <p class="text-lg text-center p-3">Mentoring</p>
                     </div>
     
-                    <div class="w-1/2 md:w-1/2 m-2 flex flex-col items-center justify-center p-6 bg-Green text-white">
+                    <div class="w-1/2 md:w-1/2 flex flex-col items-center justify-center p-0 bg-Green text-white">
                         <img class="p-6" src="images/money-send.svg" alt="money-icon">
-                        <p class="text-lg text-center p-3">Affordable</p>
+                        <p class="text-lg text-center">Affordable</p>
                     </div>
-                </div>    
+                </div>   
             </div>
       </section>
 
@@ -175,7 +194,7 @@
             Further your development with <br class="hidden md:block"> our incredible features.
         </h1>
 
-        <div class="flex flex-col items-center justify-center mx-6 md:p-6 md:space-x-12 py-11 md:flex-row">
+        <div class="flex flex-col items-center justify-center mx-3 md:p-6 md:space-x-12 py-11 md:flex-row">
             <div class="flex justify-center space-y-12 flex-col md:w-1/2">
                 <div class="flex space-y-3 items-center md:items-start flex-col">
                     <img src="images/Updated-Content-icon.svg" alt="Updated-Content-icon" width="10%">

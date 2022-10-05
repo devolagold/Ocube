@@ -8,6 +8,18 @@ body,html{
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar{
+  width: .5rem;
+}
+
+body::-webkit-scrollbar-track{ 
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #148E88;
+}
+
 /* Hamburger Menu */
 .hamburger {
     cursor: pointer;
